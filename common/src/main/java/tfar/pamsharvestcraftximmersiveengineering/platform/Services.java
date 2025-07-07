@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package tfar.pamsharvestcraftximmersiveengineering.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import tfar.pamsharvestcraftximmersiveengineering.Constants;
+import tfar.pamsharvestcraftximmersiveengineering.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

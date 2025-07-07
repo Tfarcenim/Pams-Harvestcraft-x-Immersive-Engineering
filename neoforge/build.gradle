@@ -55,6 +55,12 @@ dependencies {
         implementation "me.shedaniel.cloth:cloth-config-neoforge:$cloth_config_version"
         implementation "dev.architectury:architectury-neoforge:$architectury_version"
     }
+
+    implementation "curse.maven:pams-harvestcraft-2-trees-365460:6708704"
+    implementation "curse.maven:pams-harvestcraft-2-crops-361385:6221524"
+
+    implementation "curse.maven:immersive-engineering-231951:6733669"
+
 }
 
 modrinth {
