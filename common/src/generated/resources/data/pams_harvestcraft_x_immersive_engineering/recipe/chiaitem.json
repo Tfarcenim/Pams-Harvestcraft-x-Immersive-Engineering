@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:chiaseeditem"
+  },
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "pamhc2crops:pamchiacrop"
+  },
+  "results": [
+    {
+      "id": "pamhc2crops:chiaitem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2crops:chiaseeditem"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

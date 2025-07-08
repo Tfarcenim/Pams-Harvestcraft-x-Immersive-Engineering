@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:bokchoyseeditem"
+  },
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "pamhc2crops:pambokchoycrop"
+  },
+  "results": [
+    {
+      "id": "pamhc2crops:bokchoyitem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2crops:bokchoyseeditem"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:cattailseeditem"
+  },
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "pamhc2crops:pamcattailcrop"
+  },
+  "results": [
+    {
+      "id": "pamhc2crops:cattailitem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2crops:cattailseeditem"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:guaranaseeditem"
+  },
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "pamhc2crops:pamguaranacrop"
+  },
+  "results": [
+    {
+      "id": "pamhc2crops:guaranaitem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2crops:guaranaseeditem"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

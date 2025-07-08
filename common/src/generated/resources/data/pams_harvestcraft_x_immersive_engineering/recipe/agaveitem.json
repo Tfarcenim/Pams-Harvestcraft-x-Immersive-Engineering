@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:agaveseeditem"
+  },
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "pamhc2crops:pamagavecrop"
+  },
+  "results": [
+    {
+      "id": "pamhc2crops:agaveitem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2crops:agaveseeditem"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

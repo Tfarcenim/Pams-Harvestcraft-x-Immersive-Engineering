@@ -49,6 +49,12 @@ neoForge {
     }
 }
 
+repositories {
+    flatDir {
+        dir 'libs'
+    }
+}
+
 dependencies {
     if (project.use_rei.toBoolean()) {
         implementation "me.shedaniel:RoughlyEnoughItems-neoforge:$rei_version"
@@ -58,9 +64,10 @@ dependencies {
 
     implementation "curse.maven:pams-harvestcraft-2-trees-365460:6708704"
     implementation "curse.maven:pams-harvestcraft-2-crops-361385:6221524"
+    //implementation "blusunrize.immersiveengineering:ImmersiveEngineering:${version_ie}"
+    implementation "blusunrize.immersiveengineering:ImmersiveEngineering:1.21.1-12.4.2-194-datagen"
 
     implementation "curse.maven:immersive-engineering-231951:6733669"
-
 }
 
 modrinth {

@@ -1,0 +1,37 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2trees:hazelnut_sapling"
+  },
+  "render": {
+    "type": "immersiveengineering:generic",
+    "block": "pamhc2trees:hazelnut_sapling"
+  },
+  "results": [
+    {
+      "id": "pamhc2trees:hazelnutitem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "minecraft:oak_log"
+      }
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "minecraft:oak_leaves"
+      }
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2trees:hazelnut_sapling"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

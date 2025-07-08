@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:cauliflowerseeditem"
+  },
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "pamhc2crops:pamcauliflowercrop"
+  },
+  "results": [
+    {
+      "id": "pamhc2crops:caulifloweritem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2crops:cauliflowerseeditem"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

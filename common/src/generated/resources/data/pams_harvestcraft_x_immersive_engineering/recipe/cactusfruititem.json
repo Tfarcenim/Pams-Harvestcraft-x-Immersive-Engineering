@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:cactusfruitseeditem"
+  },
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "pamhc2crops:pamcactusfruitcrop"
+  },
+  "results": [
+    {
+      "id": "pamhc2crops:cactusfruititem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2crops:cactusfruitseeditem"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

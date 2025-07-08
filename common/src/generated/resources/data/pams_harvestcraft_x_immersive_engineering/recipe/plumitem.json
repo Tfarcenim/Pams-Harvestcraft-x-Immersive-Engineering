@@ -1,0 +1,37 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2trees:plum_sapling"
+  },
+  "render": {
+    "type": "immersiveengineering:generic",
+    "block": "pamhc2trees:plum_sapling"
+  },
+  "results": [
+    {
+      "id": "pamhc2trees:plumitem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "minecraft:oak_log"
+      }
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "minecraft:oak_leaves"
+      }
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2trees:plum_sapling"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

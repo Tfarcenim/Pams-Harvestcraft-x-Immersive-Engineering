@@ -1,0 +1,37 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2trees:date_sapling"
+  },
+  "render": {
+    "type": "immersiveengineering:generic",
+    "block": "pamhc2trees:date_sapling"
+  },
+  "results": [
+    {
+      "id": "pamhc2trees:dateitem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "minecraft:jungle_log"
+      }
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "minecraft:jungle_leaves"
+      }
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2trees:date_sapling"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}

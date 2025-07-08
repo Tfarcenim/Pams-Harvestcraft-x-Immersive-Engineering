@@ -1,0 +1,25 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "pamhc2crops:gingerseeditem"
+  },
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "pamhc2crops:pamgingercrop"
+  },
+  "results": [
+    {
+      "id": "pamhc2crops:gingeritem"
+    },
+    {
+      "chance": 0.125,
+      "output": {
+        "id": "pamhc2crops:gingerseeditem"
+      }
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 200
+}
